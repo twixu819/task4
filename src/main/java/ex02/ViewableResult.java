@@ -1,4 +1,7 @@
 package ex02;
 
-public class ViewableResult {
+public class ViewableResult implements Viewable {
+    public View getView() {
+        return new ViewResult();
+    }
 }
