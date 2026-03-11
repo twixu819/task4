@@ -1,4 +1,5 @@
 package ex02;
 
-public class Viewable {
+public interface Viewable {
+    public View getView();
 }
